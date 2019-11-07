@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* Dogs */
+
+.dogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.dog-card {
+  width: 20%;
+  margin: 2%;
+  height: 30vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img {
+  max-width:100%;
+  max-height:100%;
+  border-radius: 3%;
+}
